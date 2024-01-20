@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utsab Talukder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="my-pic-container" id="pic-container1">
+        <div class="pic-wrapper">
+            <div class="close" onclick="handle_pic_container()"><i
+                class="fa fa-close"></i></div>
+            <img src="IMG_4188.JPEG" alt="Aritra's Photo"/>
+        </div>
+    </div>
+
+    <nav>
+        <div class="wrapper">
+            <div class="name-container">
+                <h1>UTSAB TALUKDER</h1>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Academic Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="wrapper">
+            <div class="photo-container">
+                <div class="my-photo" onclick="handle_pic_container()"></div>
+            </div>
+            <div class="header-info">
+                <h1>Hello! I am Utsab.</h1>
+                <p>🚀 Welcome! I'm Utsab Talukder, an MCA student driven by a boundless passion for web development and
+                    cutting-edge projects. Armed with a solid foundation in computer science, I'm on a mission to blend
+                    creativity and code into seamless digital experiences. Every project is an opportunity to push
+                    boundaries, spark innovation, and craft solutions that resonate. Join me on this exhilarating
+                    journey where each line of code tells a unique story, and let's collaborate to shape the future of
+                    the digital landscape. Together, we'll turn ideas into captivating realities! 💻 #WebDeveloper
+                    #TechInnovator #CodeCreator</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="about" id="about">
+        <div class="wrapper">
+            <div class="edu about_font">
+                <h2>Education</h2>
+                <ul>
+                    <li>Studying MCA in Kalyani University.</li>
+                    <li>Graduated in Computer Science from Gour Mahavidyalaya, Malda.</li>
+                    <li>Completed Higher Secondary from Malda Zilla School.</li>
+                    <li>Passed Madhyamik Exam from Bamangola High School(HS), Malda.</li>
+                </ul>
+            </div>
+            <div class="tech about_font">
+                <h2>Technical Proficiency</h2>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>DBMS</li>
+                    <li>Web Development</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <h2>Academic Projects</h2>
+        <ol>
+            <li>
+                Designing and Implementing a Factory and Inventory Management System using MySQL, Under the supervision of Prof. Dr Utpal Biswas, Dept. of CSE, University Of Kalyani, year-2023.
+            </li>
+            <li>
+                An Empirical Study on Crypto-currencies Price Prediction Using Different Machine Learning Classifiers , Under the supervision of Arijit Bhattachariya, HOD, Dept. of Computer Science and Application, Gour Mahavidyalaya, year-2022.
+            </li>
+
+        </ol>
+    </div>
+    <footer id="contact">
+        <div class="wrapper">
+            <div class="contents">
+                <div class="content">
+                    <div class="heading">
+                        <i class="fa-brands fa-facebook"></i>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="heading">
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="heading">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="#">Email</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="heading">
+                        <i class="fa-brands fa-telegram"></i>
+                        <a href="#">Telegram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="contents">
+                <div class="content">
+                    <div class="heading">
+                        <i class="fa-brands fa-github"></i>
+                        <a href="#">Github</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="heading">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper copy-right">
+            <p>
+                © 2022 Utsab Talukder. All rights reserved. Unauthorized use or reproduction of content is strictly prohibited.
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        function handle_pic_container() {
+            var click = document.getElementById("pic-container1");
+            if (click.style.display === "none") {
+                click.style.display = "block";
+            }
+            else {
+                click.style.display = "none"
+            }
+        }
+    </script>
+
+    <script src="https://kit.fontawesome.com/c2d9e81474.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
