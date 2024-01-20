@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Classes */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.my-pic-container{
+  background-color: #000000e6;
+  background-size: 50%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 400;
+  display: none;
+
+}
+
+.my-pic-container .pic-wrapper{
+  width: fit-content;
+  padding: 50px 60px;
+  background-color: #27282cab;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 26px;
+}
+.my-pic-container img{
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 26px;
+}
+
+.my-pic-container .close{
+  width: fit-content;
+  height: fit-content;
+  padding: 18px;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  background-color: #222;
+  border-radius: 10%;
+  color: white;
+  margin-left: 250px;
+  position: absolute;
+  z-index: 410;
+  cursor: pointer;
+}
+
+nav {
+  background: rgb(228, 215, 240);
+  height: 88px;
+  padding-top: 14px;
+  box-sizing: border-box;
+}
+
+nav .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+nav .name-conatiner {
+  width: 90%;
+  height: 50px;
+
+}
+
+nav .nav-items {
+  width: 33%;
+}
+
+nav .nav-items ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items ul li {
+  text-decoration: none;
+  margin-right: 46px;
+}
+
+.nav-items ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(85, 205, 205);
+  height: 530px;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 20px;
+}
+
+header .wrapper .photo-container .my-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("IMG_4188.JPEG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 97px;
+  cursor: pointer;
+}
+
+header .wrapper .photo-container {
+  width: 30%;
+}
+
+header .wrapper .header-info {
+  width: 60%;
+  padding: 20px 0px;
+}
+
+.header-info h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header-info p {
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.about {
+  background-color: #76c893;
+  padding: 100px 39px;
+}
+
+.about .wrapper{
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+}
+
+.about .wrapper .edu {
+  margin-right: 20px;
+  border-right: solid 4px;
+  padding-right: 60px;
+  padding-left: 53px;
+}
+
+.about .wrapper .tech {
+  margin-left: 69px;
+}
+
+.about .wrapper .about_font h2{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+} 
+
+.about .wrapper .about_font ul {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects{
+  background-color: #666a86;
+  height: 110px;
+  padding: 184px;
+  padding-top: 68px;
+}
+
+.projects h2{
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.projects ol{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 22px;
+}
+
+.projects ol li{
+  padding-bottom: 20px;
+}
+
+footer{
+  background-color: black;
+  height: 200px;
+  padding: 20px;
+}
+
+footer .contents{
+  width: fit-content;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #fcfcfc;
+  margin: 0 auto;
+}
+
+footer .contents .content a{
+  text-decoration: none;
+  color: #fcfcfc;
+  font-size: 18pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  margin: 10px 20px;
+}
+
+footer .contents .content i{
+  font-size: 18pt;
+  margin-right: 5px;
+
+}
+
+footer .copy-right p{
+  color: white;
+  text-align: center;
+  padding-top: 23px;
+}
